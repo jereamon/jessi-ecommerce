@@ -249,7 +249,6 @@ p {
     margin: 30px 0 0;
     padding: 10px 15px;
     transition: 250ms;
-    width: 15%;
   }
 
   .contact-form-submit:hover {
@@ -257,3 +256,151 @@ p {
     background-color: #79CAD1;
   }
 /* CONTACT PORTION ENDS */
+
+@media (max-width:500px) {
+  /* NAV PORTION */
+    nav {
+      display: block;
+      height: 40px;
+    }
+
+    /* Hambuger Styles */
+      .burger-container {
+        cursor: pointer;
+        position: fixed;
+        right: 15px;
+        top: 0px;
+      }
+
+      .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #efefef;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+      }
+
+      .change .bar2 {opacity: 0;}
+
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+    /* Hamburger Styles End */
+
+    .logo-container {
+      background-color: #333;
+      height: 40px;
+      width: 100%;
+    }
+
+    .logo {
+      /* color: #333; */
+      margin: 0 0 0 15px;
+    }
+
+    .outer-nav-container {
+      /* background-color: #fff; */
+      display: block;
+      text-align: right;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+      transition: 400ms;
+    }
+
+    .open-nav-links {
+      height: 249px;
+    }
+
+    .nav-link-container-left {
+      margin: 0;
+    }
+
+    .nav-link-container-right {
+      margin: 0;
+    }
+
+    .nav-link {
+      background-color: #79CAD1;
+      border-bottom: 1px solid white;
+      color: white;
+      display: block;
+    }
+
+    .nav-link-main {
+      font-size: 16px;
+      padding: 15px 15px;
+    }
+
+    .nav-link-minor {
+      padding: 15px 15px;
+    }
+
+  /* NAV PORTION ENDS */
+
+  /* HERO AND PRODUCTS PORTION */
+    .hero-and-products-container {
+      flex-wrap: wrap;
+    }
+
+    .hero-container {
+      background-image: url('hat-from-back-mobile.jpg');
+      height: 80vh;
+      width: 100%;
+    }
+
+    .products-container {
+      margin: 40px 0 0 0;
+      width: 100%;
+    }
+
+    .product {
+      width: 95%;
+    }
+  /* HERO AND PRODUCTS PORTION ENDS */
+
+  .seperator {
+    margin: 40px 0;
+  }
+
+  /* ABOUT PORTION */
+    .about-container {
+      height: auto;
+    }
+
+    .about-content-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about-content-header {
+      font-size: 20px;
+    }
+
+    .about-portrait {
+      margin: 0 0 40px 0;
+      width: 50%;
+    }
+
+    .about-content {
+      font-size: 13px;
+      max-width: 95%;
+      text-align: center;
+    }
+  /* ABOUT PORTION */
+
+  .contact-container {
+    height: auto;
+    margin: 0 0 120px 0;
+  }
+
+  .contact-form-submit {
+    font-size: 16px;
+  }
+}
