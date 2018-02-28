@@ -5,6 +5,11 @@ const burgerContainer = document.querySelector('.burger-container');
 
 
 
+
+// INITIALIZE SMOOTH SCROLL
+var scroll = new SmoothScroll('a[href*="#"]');
+
+
 // MEDIA QUERIES
 const minFiveHundred = window.matchMedia("(min-width: 500px)");
 const maxFiveHundred = window.matchMedia("(max-width: 500px)");
