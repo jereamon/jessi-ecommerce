@@ -69,6 +69,10 @@ p {
     transition: 200ms;
   }
 
+  .current-nav-link-highlight {
+    background-color: #79CAD1;
+  }
+
   .nav-link:hover {
     background-color: #79CAD1;
     color: #fff;

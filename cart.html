@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JessiMon Cart</title>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:400,700"
+    rel="stylesheet">
+  <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo-container">
+      <a href='index.html' class="logo">JessiMon</a>
+      <div class="burger-container">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <!-- Burger Container Closes -->
+    </div>
+    <div class="outer-nav-container">
+      <div class="nav-link-container-left">
+        <a class='nav-link nav-link-main nav-link-home' href="index.html">Home</a>
+        <a class='nav-link nav-link-main nav-link-products' href="products.html" onclick='return false;'>Products</a>
+        <a class='nav-link nav-link-main nav-link-cart current-nav-link-highlight' href="cart.html">Cart</a>
+      </div>
+      <div class="nav-link-container-right">
+        <a href="index.html#about-link" class="nav-link nav-link-minor">About</a>
+        <a href="index.html#contact-link" class="nav-link nav-link-minor">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>Your Cart</h1>
+  </div>
+
+  <div class="cart-items">
+    <div class="cart-items-headers">
+      <div class="placeholder"></div>
+      <h2 class="cart-item-header">Product</h2>
+      <h2 class="cart-item-header">Description</h2>
+      <h2 class="cart-item-header">Price</h2>
+      <h2 class="cart-item-header">Quantity</h2>
+    </div>
+    <!-- CART ITEMS HEADERS CLOSES -->
+    <div class="cart-item-info-container">
+      <div class="cart-item-info product-image-container">
+        <img src="product-beanie.jpg" alt="" class="product-image">
+      </div>
+      <div class="cart-item-info product-name-container">
+        <p class="product-name">Grey Beanie</p>
+      </div>
+      <div class="cart-item-info product-description-container">
+        <p class="product-description">Size: Large
+          <br>Color: Grey</p>
+      </div>
+      <div class="cart-item-info product-price-container">
+        <p class="product-price">$34.99</p>
+      </div>
+      <div class="cart-item-info quantity-container">
+        <p class="quantity">1</p>
+      </div>
+    </div>
+    <!-- CART ITEM INFO CONTAINER CLOSES -->
+    <div class="cart-summary-container">
+      <div class="summary-info-container">
+        <h3>Subtotal</h3>
+        <p class='subtotal'>$34.99</p>
+      </div>
+      <div class="summary-info-container">
+        <h4>Shipping</h4>
+        <p class="shipping">$0.00</p>
+      </div>
+      <div class="summary-info-container order-total-container">
+        <h2>Order Total</h2>
+        <p>$34.99</p>
+      </div>
+    </div>
+  </div>
+  <!-- CART ITEMS CLOSES -->
+
+
+
+</body>
+
+</html>
