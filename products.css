@@ -17,6 +17,7 @@ p {
 
 /* NAV PORTION */
   nav {
+    background-color: #fff;
     box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.25);
     display: flex;
     font-family: 'Raleway';
@@ -78,3 +79,45 @@ p {
     padding: 20px 15px;
   }
 /* NAV PORTION ENDS */
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin: 8.25% 0;
+  width: 100vw;
+}
+
+.left-sidebar {
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  padding: 0 20px;
+}
+
+.sidebar-container {
+  margin: 20px 0;
+}
+
+.sidebar-header {
+  font-weight: bold;
+}
+
+.sidebar-inner-container {
+  margin: 10px 0 0;
+}
+
+.products-container {
+  display: flex;
+  flex-basis: 66%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.product-container {
+  margin: 0 4.15% 75px;
+  width: 25%;
+}
+
+.product-image {
+  width: 100%;
+}
